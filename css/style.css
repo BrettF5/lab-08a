@@ -1,0 +1,75 @@
+header {
+    background-color: rgb(65, 62, 62);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin: 30px auto;
+    width: 80%
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    padding: 10px;
+  }
+
+  nav a {
+    text-decoration: none;
+    color: gray;
+  }
+
+  .hero {
+    display: flex;
+    gap: 30px;
+  }
+
+  .hero img{
+    width: 100%;
+  }
+
+  .banner {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+  }
+
+  .banner img {
+    width: 100%;
+  }  
+
+  .featured {
+    display:flex;
+    gap: 30px;
+  }
+
+  .featured img{
+    width: 100%;
+    flex: 1;
+  }
+
+  .featured p {
+    flex: 2;
+    overflow: scroll;
+    height: 480px;
+  }
+
+  .featured button {
+    flex: 3;
+    flex-direction: column;
+    height: 40px;
+    width: 200px;
+    background-color: black;
+    color: whitesmoke;
+    font-size: 1.5rem;
+    gap: 10px;
+  }
+
+  footer {
+    height: 100px;
+    background-color: gray;
+    margin: 0 auto;
+  }
